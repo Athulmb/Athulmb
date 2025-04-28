@@ -33,8 +33,14 @@ Portfolio Website — Responsive and modern portfolio website built with React.j
 
 📈 GitHub Stats
 
+Please feel free to explore my public repositories on my GitHub profile.
+
+Some projects are currently under development and will be made available soon. 🚧🔜
+
 
 🤝 Let's Connect!
+
+
 🔗 LinkedIn :https://www.linkedin.com/in/athul-m-b-1107b3277/
 
 🌐 Portfolio Website : on maintanace
