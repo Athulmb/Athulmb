@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero Banner</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: transparent;
+      width: 1200px;
+      height: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      overflow: hidden;
+    }
+    .banner {
+      width: 1196px;
+      height: 336px;
+      background: #020817;
+      background-image: 
+        radial-gradient(circle at 15% 25%, rgba(0, 212, 255, 0.18) 0%, transparent 45%),
+        radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.18) 0%, transparent 45%),
+        radial-gradient(circle at 50% 50%, rgba(57, 123, 255, 0.08) 0%, transparent 60%),
+        linear-gradient(135deg, #020817 0%, #061326 50%, #081933 100%);
+      border: 1.5px solid rgba(0, 212, 255, 0.45);
+      border-radius: 18px;
+      box-shadow: 0 0 35px rgba(0, 212, 255, 0.18), inset 0 0 30px rgba(57, 123, 255, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 45px;
+      position: relative;
+      overflow: hidden;
+    }
+    /* Grid decorative lines */
+    .banner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-size: 32px 32px;
+      background-image: 
+        linear-gradient(to right, rgba(0, 212, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 212, 255, 0.035) 1px, transparent 1px);
+      pointer-events: none;
+    }
+    /* Ambient glow circles */
+    .glow-shape-1 {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(0, 212, 255, 0.15) 0%, transparent 70%);
+      top: -100px;
+      left: 80px;
+      pointer-events: none;
+    }
+    .glow-shape-2 {
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(139, 92, 246, 0.18) 0%, transparent 70%);
+      bottom: -90px;
+      right: 120px;
+      pointer-events: none;
+    }
+
+    /* Left Side: Avatar + Info */
+    .left-section {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      z-index: 2;
+    }
+    .avatar-wrapper {
+      position: relative;
+      width: 140px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .avatar-ring {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 2px dashed #00D4FF;
+      box-shadow: 0 0 25px rgba(0, 212, 255, 0.5), inset 0 0 15px rgba(0, 212, 255, 0.3);
+      animation: rotate 20s linear infinite;
+    }
+    .avatar-inner {
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid #00D4FF;
+      background: #061326;
+      box-shadow: 0 0 18px rgba(0, 212, 255, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .avatar-img {
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
+      object-position: 50% 20%;
+    }
+    .identity {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 12px;
+      background: rgba(0, 214, 163, 0.1);
+      border: 1px solid rgba(0, 214, 163, 0.4);
+      border-radius: 20px;
+      color: #00D6A3;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      width: fit-content;
+      margin-bottom: 2px;
+    }
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      background: #00D6A3;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #00D6A3;
+    }
+    .name-title {
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+    .name-athul {
+      color: #E6F0FF;
+      text-shadow: 0 2px 10px rgba(230, 240, 255, 0.3);
+    }
+    .name-mb {
+      color: #00D4FF;
+      text-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+      margin-left: 10px;
+    }
+    .subtitle {
+      font-size: 14.5px;
+      font-weight: 600;
+      letter-spacing: 2.2px;
+      color: #91B4E8;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .sub-sep {
+      color: #8B5CF6;
+      font-weight: bold;
+    }
+
+    /* Right Side: Code Card */
+    .code-panel {
+      z-index: 2;
+      width: 360px;
+      background: rgba(3, 12, 29, 0.85);
+      border: 1.2px solid rgba(57, 123, 255, 0.45);
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(57, 123, 255, 0.2);
+      overflow: hidden;
+      font-family: 'Consolas', 'Fira Code', 'Courier New', monospace;
+    }
+    .code-header {
+      background: rgba(6, 19, 38, 0.95);
+      padding: 9px 14px;
+      border-bottom: 1px solid rgba(57, 123, 255, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .dots {
+      display: flex;
+      gap: 6px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .dot-red { background: #FF5F56; }
+    .dot-yellow { background: #FFBD2E; }
+    .dot-green { background: #27C93F; }
+    .code-filename {
+      color: #91B4E8;
+      font-size: 11.5px;
+      letter-spacing: 0.5px;
+    }
+    .code-body {
+      padding: 16px 18px;
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: #E6F0FF;
+    }
+    .kw { color: #8B5CF6; font-weight: bold; }
+    .var { color: #00D4FF; }
+    .prop { color: #91B4E8; }
+    .bool { color: #00D6A3; }
+    .comment { color: #5B7294; font-style: italic; }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="glow-shape-1"></div>
+    <div class="glow-shape-2"></div>
+
+    <div class="left-section">
+      <div class="avatar-wrapper">
+        <div class="avatar-ring"></div>
+        <div class="avatar-inner">
+          <img src="athul-avatar-banner.jpeg" class="avatar-img" alt="Athul M B Avatar">
+        </div>
+      </div>
+
+      <div class="identity">
+        <div class="badge-status">
+          <span class="status-dot"></span>
+          <span>Open to Opportunities</span>
+        </div>
+        <div class="name-title">
+          <span class="name-athul">ATHUL</span><span class="name-mb">M B</span>
+        </div>
+        <div class="subtitle">
+          <span>MERN Stack Developer</span>
+          <span class="sub-sep">|</span>
+          <span>Building for the Web</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="code-panel">
+      <div class="code-header">
+        <div class="dots">
+          <div class="dot dot-red"></div>
+          <div class="dot dot-yellow"></div>
+          <div class="dot dot-green"></div>
+        </div>
+        <span class="code-filename">developer.js</span>
+      </div>
+      <div class="code-body">
+        <div><span class="kw">const</span> <span class="var">developer</span> = {</div>
+        <div style="padding-left: 18px;"><span class="prop">learn</span>: <span class="bool">true</span>,</div>
+        <div style="padding-left: 18px;"><span class="prop">build</span>: <span class="bool">true</span>,</div>
+        <div style="padding-left: 18px;"><span class="prop">improve</span>: <span class="bool">true</span>,</div>
+        <div style="padding-left: 18px;"><span class="prop">createImpact</span>: <span class="bool">true</span></div>
+        <div>};</div>
+        <div style="margin-top: 6px;"><span class="comment">// Keep coding...</span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,157 +1,225 @@
-<!-- ========== ANIMATED HEADER ========== -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:075985,100:06b6d4&height=220&section=header&text=Athul%20M%20B&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=MERN%20Stack%20Developer%20%7C%20Building%20for%20the%20Web&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Athul M B developer banner"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;React+%7C+Node.js+%7C+Express+%7C+MongoDB;Building+Responsive+Web+Applications;Always+Learning+%26+Building" alt="Animated typing introduction"/>
-</a>
-
-<p>
-  <a href="https://github.com/Athulmb">
-    <img src="https://img.shields.io/badge/GitHub-Athulmb-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <img src="https://img.shields.io/badge/Focus-Full--Stack%20Development-0891b2?style=for-the-badge" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Status-Always%20Learning-7c3aed?style=for-the-badge" alt="Status"/>
-</p>
-
-</div>
-
----
-
-## 👨‍💻 About Me
-
-<img align="right" alt="Coding animation" width="250" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
-
-Hi, I'm **Athul M B**, a passionate MERN Stack Developer who enjoys building dynamic, responsive, and user-friendly web applications.
-
-- 🚀 Developing full-stack web applications
-- ⚛️ Working with React.js and modern JavaScript
-- 🛠️ Building backend APIs using Node.js and Express.js
-- 🗄️ Working with MongoDB and MySQL
-- 🎯 Focused on clean code, reusable components, and problem-solving
-- 🌱 Continuously learning new technologies and improving my skills
-
-<br clear="right"/>
-
----
-
-## 🧰 Tech Stack
-
-### Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,redux,tailwind,bootstrap&theme=dark" alt="Frontend technologies"/>
-</p>
-
-### Backend & Database
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" alt="Backend and database technologies"/>
-</p>
-
-### Tools & Platforms
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,postman,aws&theme=dark" alt="Development tools"/>
-</p>
-
----
-
-## 🚀 Featured Projects
-
-<!-- Replace the examples below with your actual projects -->
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🔹 Project One
-
-**Your Project Name**
-
-Briefly explain the problem your application solves and its main features.
-
-**Built with:** React, Node.js, Express, MongoDB
-
-<a href="https://github.com/Athulmb">View Repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🔹 Project Two
-
-**Your Project Name**
-
-Describe another project, its key functionality, and what you learned while building it.
-
-**Built with:** React, JavaScript, REST API
-
-<a href="https://github.com/Athulmb">View Repository →</a>
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Athulmb&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics"/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Athulmb&layout=compact&theme=tokyonight&hide_border=true" alt="Most used programming languages"/>
-
-<br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=Athulmb&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
-
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Athulmb&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub contribution activity graph"/>
-
-</div>
-
----
-
-## 🎯 Current Goals
-
-- Build scalable full-stack applications.
-- Improve backend architecture and API development.
-- Write maintainable, reusable code.
-- Learn advanced development practices.
-- Collaborate on meaningful projects.
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/Athulmb">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"/>
-</a>
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:YOUR_EMAIL@example.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
+<!-- ==================== SECTION A: HERO BANNER ==================== -->
+<img src="./assets/profile-banner.png" width="100%" alt="Athul M B - Futuristic Developer Portfolio Dashboard"/>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Athulmb&style=flat-square&color=06b6d4" alt="Profile views"/>
+<!-- Centered Pill-Shaped Technology Line -->
+<img src="./assets/tech-pill.png" width="560" alt="React • Node.js • Express • MongoDB"/>
 
-### 💙 Thanks for visiting my profile!
+<br/><br/>
 
-*Keep learning. Keep building. Keep growing.*
+<!-- Neon Gradient Divider -->
+<img src="./assets/neon-divider.png" width="100%" height="4" alt="neon divider line"/>
+
+</div>
+
+<br/>
+
+<!-- ==================== SECTION B: TWO-COLUMN ABOUT & TECH STACK ==================== -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="./assets/card-about.png" width="100%" alt="About Me Card — Athul M B"/>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="./assets/card-tech-stack.png" width="100%" alt="Tech Stack Card — Athul M B"/>
+    </td>
+  </tr>
+</table>
+
+<!-- Accessible Text & Direct Documentation Links -->
+<details>
+  <summary><b>📖 View Text Version & Tech Stack Links (Click to Expand)</b></summary>
+  <br/>
+  
+  ### 👤 About Me
+  > I'm a passionate **MERN Stack Developer** who loves building dynamic and responsive full-stack web applications. I enjoy turning complex ideas into clean, user-friendly experiences.
+  >
+  > *✦ Better code*  
+  > *✦ Better products*  
+  > *✦ A brighter web*  
+  >
+  > **Location:** 📍 India &nbsp;|&nbsp; **Status:** 💼 Open to Opportunities &nbsp;|&nbsp; **Mindset:** 🚀 Always Learning
+
+  ---
+
+  ### ⚡ Tech Stack & Tools
+  - **Frontend:** [React](https://react.dev/) &nbsp;•&nbsp; [Next.js](https://nextjs.org/) &nbsp;•&nbsp; [Tailwind CSS](https://tailwindcss.com/) &nbsp;•&nbsp; [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - **Backend:** [Node.js](https://nodejs.org/) &nbsp;•&nbsp; [Express.js](https://expressjs.com/)
+  - **Database:** [MongoDB](https://www.mongodb.com/)
+  - **Version Control & DevOps:** [Git](https://git-scm.com/) &nbsp;•&nbsp; [GitHub](https://github.com/)
+</details>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/neon-divider.png" width="100%" height="4" alt="neon divider line"/>
+</div>
+
+<br/>
+
+<!-- ==================== SECTION C: GITHUB STATS DASHBOARD ==================== -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <thead>
+    <tr>
+      <th width="48%" align="left">
+        <h3>&nbsp;&nbsp;⚡ GitHub Stats</h3>
+      </th>
+      <th width="52%" align="left">
+        <h3>&nbsp;&nbsp;📈 Contribution Graph</h3>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Left Side: Live Stats & Profile Metrics -->
+      <td width="48%" valign="top" align="center">
+        <a href="https://github.com/Athulmb" target="_blank">
+          <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Athulmb&show_icons=true&bg_color=061326&title_color=00D4FF&text_color=E6F0FF&icon_color=00D4FF&border_color=00D4FF&include_all_commits=true&count_private=true" alt="Athulmb GitHub Stats Card"/>
+        </a>
+        <br/><br/>
+        <p align="center">
+          <a href="https://github.com/Athulmb?tab=repositories" target="_blank">
+            <img src="https://img.shields.io/badge/Repositories-17_Public-0A1B31?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=061326" alt="17 Public Repositories"/>
+          </a>
+          <a href="https://github.com/Athulmb?tab=followers" target="_blank">
+            <img src="https://img.shields.io/badge/Followers-2-0A1B31?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=061326" alt="2 Followers"/>
+          </a>
+          <a href="https://github.com/Athulmb?tab=following" target="_blank">
+            <img src="https://img.shields.io/badge/Following-3-0A1B31?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=061326" alt="3 Following"/>
+          </a>
+        </p>
+      </td>
+      <!-- Right Side: Live Activity Graph & Streaks -->
+      <td width="52%" valign="top" align="center">
+        <a href="https://github.com/Athulmb" target="_blank">
+          <img width="100%" src="https://ghchart.rshah.org/00D4FF/Athulmb" alt="Athulmb GitHub Contribution Activity Graph"/>
+        </a>
+        <br/><br/>
+        <a href="https://github.com/Athulmb" target="_blank">
+          <img width="100%" src="https://streak-stats.demolab.com?user=Athulmb&theme=dark&background=061326&border=00D4FF&stroke=00D4FF&ring=00D4FF&fire=00D4FF&currStreakNum=00D4FF&sideNums=E6F0FF&currStreakLabel=00D4FF&sideLabels=91B4E8&dates=5B7294" alt="Athulmb GitHub Streak Stats"/>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/neon-divider.png" width="100%" height="4" alt="neon divider line"/>
+</div>
+
+<br/>
+
+<!-- ==================== SECTION D: FEATURED PROJECTS ==================== -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left">
+      <h2>🚀 Featured Projects</h2>
+    </td>
+    <td align="right">
+      <a href="https://github.com/Athulmb?tab=repositories" target="_blank">
+        <img src="https://img.shields.io/badge/View_All_Projects-→-00D4FF?style=for-the-badge&labelColor=061326&color=00D4FF" alt="View all projects"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%" border="0" cellspacing="8" cellpadding="0">
+  <tr>
+    <!-- Project 1: Bricore Platform -->
+    <td width="33.33%" valign="top" align="center">
+      <a href="https://github.com/Athulmb/bricore-frontend" target="_blank">
+        <img src="./assets/project-bricore.png" width="100%" alt="Bricore Platform Thumbnail"/>
+      </a>
+      <br/><br/>
+      <div align="left">
+        <img src="https://img.shields.io/badge/⚡-Bricore_Platform-00D4FF?style=flat-square&labelColor=061326" alt="Bricore Platform"/>
+        <p>Interactive enterprise full-stack web application with modular component architecture, Material-UI design system, and scalable REST API backend.</p>
+        <p>
+          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+          <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        </p>
+        <a href="https://github.com/Athulmb/bricore-frontend" target="_blank"><b>Explore Repository →</b></a>
+      </div>
+    </td>
+
+    <!-- Project 2: PetStore Gallery -->
+    <td width="33.33%" valign="top" align="center">
+      <a href="https://github.com/Athulmb/petsgallary-frontend" target="_blank">
+        <img src="./assets/project-petsgallary.png" width="100%" alt="PetStore Gallery Thumbnail"/>
+      </a>
+      <br/><br/>
+      <div align="left">
+        <img src="https://img.shields.io/badge/🛍️-PetStore_Gallery-8B5CF6?style=flat-square&labelColor=061326" alt="PetStore Gallery"/>
+        <p>Modern pet adoption and commerce platform featuring centralized Redux state management, Radix & Shadcn UI components, and integrated Stripe payment checkout.</p>
+        <p>
+          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+          <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white"/>
+        </p>
+        <a href="https://github.com/Athulmb/petsgallary-frontend" target="_blank"><b>Explore Repository →</b></a>
+      </div>
+    </td>
+
+    <!-- Project 3: FitVantage App -->
+    <td width="33.33%" valign="top" align="center">
+      <a href="https://github.com/Athulmb/fitvantage" target="_blank">
+        <img src="./assets/project-fitvantage.png" width="100%" alt="FitVantage App Thumbnail"/>
+      </a>
+      <br/><br/>
+      <div align="left">
+        <img src="https://img.shields.io/badge/📈-FitVantage_App-00D6A3?style=flat-square&labelColor=061326" alt="FitVantage App"/>
+        <p>Dynamic fitness tracking and workout management web platform with interactive progress metrics, Tabler iconography, and automated test coverage.</p>
+        <p>
+          <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+          <img src="https://img.shields.io/badge/REST_API-0A1B31?style=flat-square&logoColor=00D4FF"/>
+        </p>
+        <a href="https://github.com/Athulmb/fitvantage" target="_blank"><b>Explore Repository →</b></a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/neon-divider.png" width="100%" height="4" alt="neon divider line"/>
+</div>
+
+<br/>
+
+<!-- ==================== FOOTER & CONNECT ==================== -->
+<div align="center">
+
+  <h3>🌐 Let's Build Something Impactful Together</h3>
+  <p>Feel free to reach out for collaborations, full-stack opportunities, or just to talk web development!</p>
+
+  <p>
+    <a href="https://github.com/Athulmb" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-Athulmb-061326?style=for-the-badge&logo=github&logoColor=00D4FF&labelColor=030C1D" alt="GitHub Profile"/>
+    </a>
+    &nbsp;
+    <a href="https://linkedin.com/in/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Athul_M_B-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=030C1D" alt="LinkedIn Profile"/>
+    </a>
+    &nbsp;
+    <a href="mailto:your_email@example.com">
+      <img src="https://img.shields.io/badge/Email-Contact_Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030C1D" alt="Email"/>
+    </a>
+  </p>
+
+  <br/>
+
+  <img src="https://komarev.com/ghpvc/?username=Athulmb&style=flat-square&color=00D4FF&label=PROFILE+VIEWS" alt="Profile Views Counter"/>
+
+  <p><i>Crafted with passion • MERN Stack Developer • Building for the Web</i></p>
 
 </div>
